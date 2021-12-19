@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Progress Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <h1>Idere minuut krijgen 188 mensen een prik.</h1>
+                <p>Dit is een schatting. Deze schatting is gemaakt met het gemiddelde van 135.399 prikken per dag tussen 8.00 en 20.00 uur in de afgelopen zeven dagen.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="circular">
+                <div class="inner"></div>
+                <div class="num"></div>
+                <div class="circle">
+                    <div class="bar left">
+                        <div class="progress" id="progressLeft"></div>
+                    </div>
+                    <div class="bar right">
+                        <div class="progress" id="progressRight"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
